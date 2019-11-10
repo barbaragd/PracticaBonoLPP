@@ -1,0 +1,11 @@
+Dependiendo del número de niños a realizar la actividad, nos dividiremos en dos, o tres grupos. Como cada niño será una posición del vector ordenado, podría resultar
+más fácil que el vector no fuera de gran tamaño. 
+
+En cada uno de los grupos, uno de los niños representará el valor a buscar entre los números del vector, se le dará una cartulina con el número a buscar. El resto de
+los niños, cogerá cada uno una cartulina y se colocarán en orden (de menor a mayor). Podría resultar más interesante si los niños ordenados no le mostrasen al niño que
+busca la cartulina que tienen con el número. A continuación, el niño que está buscando su número entre los demás, comenzará a desarrollar el algoritmo.
+
+Para ello, comenzará colocándose en frente del primer niño, y a partir de ahí contará hasta 4 hasta el siguiente niño. Cuando llega a este, le pregunta si es el número 
+que está buscando. Si es menor, vuelve a contar los 4 saltos, si es mayor, tiene que ir preguntando hacia atrás, niño por niño, si es el valor que busca. 
+
+Una vez encuentra el valor, se da por finalizada la búsqueda. 
