@@ -1,0 +1,7 @@
+
+Objetivo.
+
+El objetivo es entender el concepto de Búsqueda. Para ello, se ha querido explicar dicho concepto mediante la técnica de búsqueda siguiente: 'Jump Search'.
+
+Este algoritmo consiste en recorrer un vector ordenado dando 'saltos', es decir, si definimos el salto de 4 posiciones, cada vez que saltamos, comparamos el valor de la posición con el valor objetivo, si es menor, procedemos a volver a saltar, si es mayor, recorremos hacia atrás las 4 posiciones que hemos saltado hasta encontrar el nú
+mero que estamos buscando. 
